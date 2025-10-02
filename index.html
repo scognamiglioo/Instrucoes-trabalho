@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Referências HTML5</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Website Referências HTML5</h1>
+        </div>
+    </header>
+
+    <main>
+        <section class="content-section">
+            <div class="container">
+                <h2>Links utilitários:</h2>
+                
+                <div class="links-section">
+                    <h3>Repositório GitHub:</h3>
+                    <p><a href="https://github.com/scognamiglioo/Web-References-HTML5" target="_blank">https://github.com/scognamiglioo/Web-References-HTML5</a></p>
+
+                    <h3>Drive para "sobre nós" (apenas email institucional):</h3>
+                    <p>Disponibilizado no grupo do Telegram.</p>
+                </div>
+
+                <div class="instructions-section">
+                    <h3>Crie um pasta com o seu nome e deve conter os seguintes itens:</h3>
+                    <ul>
+                        <li>Adicione sua foto de preferência</li>
+                        <li>Adicione um documento de texto (.pdf, .txt ou .doc) contendo os links de suas redes sociais que deseja exibir</li>
+                    </ul>
+                </div>
+
+                <div class="objectives-section">
+                    <h2>OBJETIVOS GERAIS:</h2>
+                    <ul>
+                        <li>Definir a estética do site</li>
+                        <li>Adicionar todos integrantes no GitHub (mande o link do seu perfil do GitHub no canal do telegram destinado a isso - conferir link no classroom da matéria)</li>
+                        <li>Desenvolver páginas comuns (HOME / REFERÊNCIA / SOBRE NÓS)</li>
+                        <li>Desenvolver template de página de tags</li>
+                    </ul>
+                </div>
+
+                <div class="attention-section">
+                    <h2>ATENÇÃO!</h2>
+                    <p>Quando for postar a sua parte de código, abra uma nova branch e então depois uma pull request, na versão final e concreta do seu projeto.</p>
+                    
+                    <p>Não sabe ou não lembra disso? Segue tutorial, pode fazer teste no seu github antes de testar no projeto original.</p>
+                </div>
+
+                <div class="tutorial-section">
+                    <h2>MANUALMENTE</h2>
+                    <ol>
+                        <li>
+                            <strong>Criar uma branch no GitHub</strong>
+                            <p>Vá até o repositório no GitHub.</p>
+                            <p>No topo, ao lado do seletor de branch (main), clique e digite o nome da nova branch (ex: branch-teste).</p>
+                            <p>Clique em Create branch: branch-teste from 'main'.</p>
+                        </li>
+                        
+                        <li>
+                            <strong>Editar ou adicionar arquivos na branch</strong>
+                            <p>Certifique-se de que está na branch nova (branch-teste).</p>
+                            <p>Clique em Add file → Create new file.</p>
+                            <p>Adicione as suas páginas de TAG</p>
+                            <p>Clique em Commit changes para salvar na branch.</p>
+                        </li>
+                        
+                        <li>
+                            <strong>Abrir um Pull Request</strong>
+                            <p>No repositório, o GitHub deve sugerir:</p>
+                            <p>"Compare & pull request" → clique nesse botão.</p>
+                            <p>(Se não aparecer, vá em Pull requests → New pull request.)</p>
+                            <p>Confirme que está comparando branch-teste → main.</p>
+                            <p>Escreva um título e descrição (ex: "Adiciona página da branch com botão de retorno").</p>
+                            <p>Clique em Create pull request.</p>
+                        </li>
+                    </ol>
+                </div>
+
+                <div class="code-tutorial-section">
+                    <h2>POR CÓDIGO:</h2>
+                    <ol>
+                        <li>
+                            <strong>Clonar o repositório (se ainda não tiver localmente)</strong>
+                            <code>git clone https://github.com/usuario/repositorio.git<br>cd repositorio</code>
+                        </li>
+                        
+                        <li>
+                            <strong>Criar uma nova branch e mudar para ela</strong>
+                            <code>git checkout -b branch-teste</code>
+                            <p>➡️ Isso cria a branch chamada branch-teste e já troca para ela.</p>
+                        </li>
+                        
+                        <li>
+                            <strong>Adicionar um arquivo ou modificar</strong>
+                            <p>Exemplo: criar o branch.html (aquele que te passei antes).</p>
+                            <code>echo "&lt;h1&gt;Página da Branch 🚀&lt;/h1&gt;" &gt; branch.html</code>
+                        </li>
+                        
+                        <li>
+                            <strong>Fazer commit</strong>
+                            <code>git add branch.html<br>git commit -m "Adiciona página da branch"</code>
+                        </li>
+                        
+                        <li>
+                            <strong>Enviar branch para o GitHub</strong>
+                            <code>git push origin branch-teste</code>
+                        </li>
+                        
+                        <li>
+                            <strong>Abrir o Pull Request</strong>
+                            <p>Agora vá até o GitHub (site).</p>
+                            <p>O GitHub já vai sugerir: Compare & pull request.</p>
+                            <p>Aí você faz o merge para main depois da revisão.</p>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 WEB-DEV 2025</p>
+        </div>
+    </footer>
+</body>
+</html>
